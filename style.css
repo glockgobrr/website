@@ -1,0 +1,118 @@
+.body-structure{
+    margin: 0px;
+    border: 2px solid black;
+
+}
+
+
+#companyname{
+    margin-left: 100px;
+    color: gold;
+    font-family: "Merriweather", serif;
+    object-fit: contain;
+    font-size: 30px;
+}
+
+.header{
+    border-bottom: 5px solid #2C2C2C;
+    background-color: black;
+    max-height: 60px;
+    padding: 5px;
+}
+
+.flex{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.nav-flex{
+    display: flex;
+    align-items: center;
+    list-style: none;
+    margin-right: 100px;
+    color: #FFFFFF;
+}
+
+.nav-list-items{
+    margin-inline: 10px;
+    font-size: 20px;    
+}
+
+.flex-landing-page{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+
+}
+
+span{   
+    margin-left: 0px;
+    text-decoration: 3px underline white;
+    text-underline-offset: 5px;
+}
+
+.welcome{
+    font-weight: 800;
+    font-family: Montserrat;
+    font-size: 90px;
+    color: #FFFFFF;
+    text-align: center;
+    margin-top: 250px;
+    
+}
+
+.company-intro{
+    font-family: "Merriweather", serif;
+    color: gold;
+    font-size:  50px;
+    text-align: center;
+}
+
+#tagline{
+    color: #FFFFFF;
+    text-align: center;
+    font-family: "Poppins", serif;
+    font-size: 25px;
+    margin-bottom: 240px;
+}
+
+.welcome-tagline{
+    background-color: black;
+    width: 100%;
+    line-height: 20px;
+    padding-inline: 50px;
+}
+
+.company-objective{
+    background-color: #F7E7D9;
+    width: 100%;
+    text-align: center;
+    padding: 10px;
+    height: 86.5vh;
+
+}
+
+.description{
+    font-family: "Poppins", serif;
+    font-size: 19px;
+    max-width: 80%;
+    margin-inline: auto;
+    margin-bottom: 50px;
+    margin-top: 200px;
+}
+
+.services-button{
+    background-color: black;
+    color: gold;
+    font-family: "Poppins", serif;
+    font-size: 20px;
+    border: none;
+    border-radius: 20px;
+    padding-inline: 15px;
+    padding-block: 5px;
+}
+
+a,a:hover,a:visited,a:active{
+    text-decoration: none;
+}
